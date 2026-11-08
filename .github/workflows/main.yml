@@ -1,7 +1,7 @@
 name: Build Jekyll Site
 on:
   push:
-    branches: [ test ]
+    branches: [ main ]
 jobs:
   build:
     runs-on: ubuntu-latest
